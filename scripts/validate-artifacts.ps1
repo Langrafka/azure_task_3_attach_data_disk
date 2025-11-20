@@ -51,7 +51,7 @@ if ($virtualMachine.location -eq "westeurope" ) {
     Write-Output "`u{2705} Checked Virtual Machine location - OK."
 } else { 
     Write-Output `u{1F914}
-    throw "Virtual is not deployed to the UK South region. Please re-deploy VM to the UK South region and try again."
+    throw "Virtual is not deployed to the West Europe region. Please re-deploy VM to the West Europe region and try again."
 }
 
 if (-not $virtualMachine.zones) { 
